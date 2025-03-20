@@ -1,2 +1,5 @@
 cropped/
 original/
+
+*.tar.gz
+*.csv
