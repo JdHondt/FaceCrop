@@ -131,7 +131,7 @@ The Extended Yale Face Database B contains 16,128 images of 28 human subjects un
 
 ```python
 # Simple example to crop a directory of images
-from crop_faces import FaceCropper
+from face_cropper import FaceCropper
 
 cropper = FaceCropper(target_size=(192, 168))
 cropper.process_directory("original", "cropped")
