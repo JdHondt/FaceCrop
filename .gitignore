@@ -1,5 +1,7 @@
-cropped/
 original/
+.venv/
+notebooks/
+*_cropped*/
 
 *.tar.gz
 *.csv

@@ -1,0 +1,7 @@
+{
+    "face": "haarcascade_frontalface_default.xml",
+    "left_eye": "haarcascade_mcs_lefteye.xml",
+    "right_eye": "haarcascade_mcs_righteye.xml",
+    "nose": "haarcascade_mcs_nose.xml",
+    "mouth": "haarcascade_mcs_mouth.xml"
+}

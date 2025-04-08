@@ -206,14 +206,20 @@ def main():
 
 if __name__ == "__main__":
     # sys.argv = [sys.argv[0], 
-    #             "-i", "cropped", 
-    #             "-o", "cropped_A+000E+00.csv", 
+    #             "-i", "cropped_downsampled", 
+    #             "-o", "csvs/cropped_downsampled_full.csv", 
+    #             "--extensions", ".pgm",
+    #             "--no-labels", "--include-filenames"]
+
+    # sys.argv = [sys.argv[0], 
+    #             "-i", "cropped_downsampled", 
+    #             "-o", "csvs/cropped_downsampled_A+000E+00.csv", 
     #             "--extensions", "A+000E+00.pgm",
     #             "--no-labels", "--include-filenames"]
 
     sys.argv = [sys.argv[0], 
-                "-i", "cropped", 
-                "-o", "cropped_P00.csv", 
+                "-i", "cropped_downsampled", 
+                "-o", "csvs/cropped_downsampled_P00.csv", 
                 "--extensions", "P00*.pgm",
                 "--no-labels", "--include-filenames"]
 
